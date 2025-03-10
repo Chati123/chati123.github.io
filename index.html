@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PruebaYT</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>PÁGINA DE ALONSO</h1>
+    <h2>Ey pero klk</h2>
+    <!-- esto es un comenterio que solo se ve en el codigo-->
+    <hr>
+    <p>Hola soy al0nso</p>
+    <p>En este texto vamos a <span style="color:chartreuse">poner alguna 
+        palabra</span> de distinto <span style="color:darkorchid">color</span>
+    </p>
+    <!--Vamos a hacer un enlace a cualuier pagina web en la misma pestaña-->
+    <a href="https://www.youtube.com/">Enlace ir a YouTube aqui</a>
+    <br>
+    <!--Vamos a hacer un enlace a cualuier pagina web en diferente pestaña-->
+    <a target="_blank" href="https://www.pornhub.com">Enlace pra ir a YouTube en otra</a>
+    <br><br>
+    <!--Imagen cargada desde el ordenador-->
+    <img src="img/anuel.jpg" width="300" />
+    <br><br>
+    <form action="/formulario" method="get">
+        <label for="nombre"><span style="color:rgb(217, 18, 0)">Nombre</span></label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br> 
+        <label for="Apellidio">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea cols="50" rows="5" id="comentario" name="comentario" placeholder=" Ingrese comentario"></textarea>
+        <br>
+        <input type="submit"/>
+        <button type="submit">Enviar</button>
+    </form>
+    <ul><!--lista no ordenada-->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <ol><!--lista ordenada-->
+        <li value="0">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-alpha;">Subelemento 1</li>
+                <li style="list-style-type:lower-roman;">Subelemento 2</li>
+                <li style="list-style-type:lower-greek;">Subelemento 3</li>
+            </ol>
+        </li>
+    </ol>
+    <table style="width: 300px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola beats</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Cara al sol con la camisa</td>
+                <td>19.99€</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 19.99€</td>
+        </tfoot>
+    </table>
+</body>
+</html>
